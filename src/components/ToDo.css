@@ -100,7 +100,7 @@ form button {
   border-bottom-right-radius: 15px;
   min-width: 100px;
   background-color: #5dade2;
-  color: black;
+  color: var(--secondary-color);
   height: -webkit-fill-available;
 }
 
@@ -123,22 +123,22 @@ span {
 }
 
 .todo-item {
-  margin: 1.4rem;
+  margin: 2.4rem;
   /*word-wrap: break-word;
     */ /*flex-wrap: wrap;
     */
-  font-size: 20px;
+  font-size: 30px;
   color: #1c2833;
   border-radius: 30px;
   transition: background-color 200ms ease-in-out;
   background-color: #f2f3f4;
-  min-width: 22rem;
-  max-width: 50rem;
-  padding: 0.8rem 2rem;
+  min-width: 35rem;
+  max-width: 40rem;
+  padding: 1.6rem 3rem;
   display: grid;
   grid-template-columns: 1fr 0.3fr 0.3fr;
   justify-content: start;
-  gap: 0.6rem;
+  gap: 1.6rem;
   /*align-items: center;
     */ /*wrapsthelinks*/
   overflow-wrap: anywhere;
